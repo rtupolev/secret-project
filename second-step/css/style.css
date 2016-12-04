@@ -1,0 +1,44 @@
+body{
+  width:100%;
+  min-height: 1500px;
+  background: black;
+}
+
+.p-block {
+  position: absolute;
+  top: 250px;
+  left: 520px;
+  display: inline-block;
+  background: white;
+}
+
+.broken_paragraph{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.lorem{
+  color: white;
+}
+
+.oliver-stamp{
+  display: inline-block;
+  background: url('/img/oliver-stamp.png');
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
+.basic{
+  display: none;
+  width: 378px;
+  height: 135px;
+  position:absolute;
+  top: 2300px;
+  right: 200px;
+  z-index: 50;
+}
+
+.hover-span:hover ~ .basic{
+  display: block;
+}
